@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	font-family: sans-serif
+}
+body{
+	background: url("88db1be70980de58b99ee04de48f2b88.jpg");
+	background-size: cover;
+	background-position: center
+}
+.container-1{
+	height: 400px;
+/*	background: white;*/
+}
+.header{
+	padding: 5px 0px
+}
+
+.menu{
+	width: 100%;
+	height: 70px;
+/*	background: red;*/
+	display: flex;
+	justify-content: center
+}
+.logo{
+	width: 15%;
+	height: 80px;
+	background: rgba(0,0,0,0.48);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	transition:1s
+}
+.logo a{
+	text-decoration: none;
+	font-size: 35px;
+	color: White;
+	font-weight: 500;
+	font-family: serif
+}
+.logo span{
+	color: rgba(255,255,255,0.54)
+}
+
+.left-menu{
+	width: 20%;
+	height: 80px;
+/*	background: orange;*/
+	display: flex;
+	justify-content: center;
+	
+}
+.left-menu a{
+	width: 40%;
+	padding: 30px 0px 0px 50px; 
+/*	background: red;*/
+	font-size: 20px;
+	text-decoration: none;
+	transition: 0.6s;
+	color: Black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.left-menu a:hover{
+	color: white;
+/*	background: black*/
+}
+
+.right-menu{
+	width: 20%;
+	height: 80px;
+/*	background: orange;*/
+	display: flex;
+	justify-content: center;
+}
+.right-menu a{
+	width: 40%;
+	padding: 30px 0px 0px 45px; 
+/*	background: red;*/
+	font-size: 20px;
+	text-decoration: none;
+	transition: 0.6s;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.right-menu a:hover{
+	color: white;
+/*	background: black*/
+}
+.profile-container{
+	padding-top: 50px;
+	display: flex;
+	justify-content: center
+}
+.profile{
+	width: 250px;
+	height: 240px;
+	background: url("72274230_916667595377942_8649457676171870208_n.jpg");
+	background-size: cover;
+	position: relative;
+	border-radius: 50%;
+	transition: 1s;
+	align-content: center;
+}
+.profile:hover{
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.43); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.43);
+}
+.box1{
+	height: 320px;
+	background:url(Pic/119142371_1196534684057897_901690704249054668_n.jpg);
+	background-size: cover;
+	position: relative
+}
+.box2{
+	height: 320px;
+	background: url("Pic/shot 2021.01.14 22.20.28.jpg");
+	background-size: cover;
+	position: relative
+}
+.box3{
+	height:320px;
+	background: url("Pic/LeQuangHuy_Final-100.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative
+}
+.box1 a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 320px;
+	color: white;
+	background:rgba(0,0,0,0.49);
+	text-decoration: none;
+	font-size: 30px;
+	opacity: 0;
+	transition: 0.6s
+}
+.box1 a:hover{
+	visibility: visible;
+	opacity: 1
+}
+.box2 a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 320px;
+	font-size: 30px;
+	color: white;
+	background:rgba(0,0,0,0.49);
+	text-decoration: none;
+	opacity: 0;
+	transition: 1s
+}
+.box2 a:hover{
+	visibility: visible;
+	opacity: 1
+}
+.box3 a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 320px;
+	color: white;
+	background:rgba(0,0,0,0.49);
+	font-size: 30px;
+	text-decoration: none;
+	opacity: 0;
+	transition: 1s
+}
+.box3 a:hover{
+	visibility: visible;
+	opacity: 1
+}
+.box-2{
+	height: 500px;
+	background: green
+}
+.footer{
+	display: flex;
+	justify-content: center;
+}
+/*
+.container-3{
+	height: 200px;
+	background: white;
+	display: flex;
+	justify-content: center;
+}
+*/
+
+.box-3{
+	width: 300px;
+	height: 200px;
+	background: rgba(0,0,0,0.48);
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.logofooter{
+	width: 15%;
+	height: 80px;
+/*	background: rgba(0,0,0,0.48);*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	transition:1s
+}
+.logofooter a{
+	text-decoration: none;
+	font-size: 50px;
+	color: White;
+	font-weight: 500;
+	font-family: serif
+}
+.logofooter span {
+	color: rgba(255,255,255,0.54)
+}
+.logofooter p{
+	color: rgba(255,255,255,0.54)
+}

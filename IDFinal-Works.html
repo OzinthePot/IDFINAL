@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link rel="stylesheet" href="IDFinal-Works.css">
+	<link rel="stylesheet" href="IDFinal-Works-PicGallery.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="container-1">
+			<nav class="menu">
+				<div class="left-menu">
+					<a href="IDFinal.html">Home</a>
+					<a href="IDFinal-About.html">About</a>
+				</div>
+				<div class="logo">
+					<a href="IDFinal.html">REPRISE</a>
+					<span>.exe</span>
+				</div>
+				<div class="right-menu">
+					<a href="IDFInal-Contact.html">Contact</a>
+					<a class="active" href="IDFinal-Works.html">Works</a>
+				</div>
+			</nav>
+<!--			menu-->
+			</div>
+			<div class="main">
+				<div class="gallery1">
+				<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Error.exe</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Wut Thunder</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Art Work</button>
+</div>
+
+<div id="London" class="tabcontent">
+	 <div class="pic1"><img src="Pic/130015105_1266780070366691_2562923673112500339_n.jpg" alt=""></div>
+	 <div class="pic1"><img src="Pic/104832765_1133118777066155_6861764031041172534_n.jpg" alt=""></div>
+	 <div class="pic1"><img src="Pic/186486534_1369622243415806_7222255416381882058_n.jpg" alt=""></div>
+</div>
+
+<div id="Paris" class="tabcontent">
+	<div class="pic1"><img src="Pic/109077176_1147289482315751_4949792200517781379_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/199163975_1396663610711669_1051290574977658565_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/206743121_1402411850136845_7659339021676962012_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/217325074_1409120146132682_7993105115934190088_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/shot 2021.06.09 19.06.24.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/shot 2021.07.01 21.51.08.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/shot 2021.01.14 22.20.28.jpg" alt=""></div>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+	<div class="pic1"><img src="Pic/119142371_1196534684057897_901690704249054668_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/133319626_1282182445493120_8372216620737457055_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/88445853_1050259542018746_1685161969415356416_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/120028264_1203904936654205_7541397253247999944_n.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/LeQuangHuy_Final-100.jpg" alt=""></div>
+	<div class="pic1"><img src="Pic/112337817_1151713618540004_2431459655617145112_n.jpg" alt=""></div>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className +=" active";
+}
+</script>
+				</div>
+				</div>
+<!--				gallery1-->
+			</div>
+		</div>
+		<div class="footer">
+		<div class="container-3 ptb-20">
+			<div class="row">
+			<div class="col-12 prl-10">
+				<div class="box-3">
+					<div class="logofooter">
+					<a href="IDFinal.html">REPRISE</a>
+					<span>.exe</span>
+						<br>
+					<p>Copyright@</p>
+				</div>
+				</div>	
+			</div>
+			</div>
+			</div>
+		</div>
+</body>
+</html>
